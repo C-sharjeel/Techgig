@@ -8,6 +8,50 @@ class CandidateCode {
  */static int SolveMagicSquare(int[][] input1)
     {
     	//Write code here
+    	int flag==true;
+    	int [][][][] square;
+    	int n= (int)Math.Sqrt(input1.Length);
+    	for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                //;
+                for(int off_x=0;off_x<n;off_x++){
+                    for(int off_y;off_y<n;off_x++){
+                        square[i][j][off_x][off_y]= input[i+off_x][j+off_y];
+                    }
+                }
+            }
+        }
+        
+        if(square[0][0][0][0]!=1)
+        	flag= false;
+        else{
+        	for(int i=0;i<n;i++){
+        		for(int j=0;j<n-1;j++){
+        		int [][]temp = square[i][j];
+        		square[i][j] = square[i][j+1];
+        		square[i][j+1] = temp;
+        		
+        		if(!subRoutine(square)){
+        			flag =  false;
+        			goto found;
+        			}
+        		}
+        	}
+        	for(int i=0;i<n-1;i++){
+        		for(int j=0;j<n;j++){
+        		int [][]temp = square[i][j];
+        		square[i][j] = square[i+1][j];
+        		square[i+1][j] = temp;
+        		
+        		if(!subRoutine(square)){
+        			flag =  false;
+        			goto found;
+        			}
+        		}
+        	}
+        }
+        found:
+        	return flag;
     }
     
     static bool subRoutine(int[][] square){
@@ -24,8 +68,8 @@ class CandidateCode {
                         int dX = i+off_x;
                         int dY = j+off_y;
                         
-                        if( (square[i][j]==square[disX][disY] && (i!=disX || j!= disY)) || 
-                                (square[i][j]==square[dX][dY] && (i!dX || j!=dY)) )
+                        if( (square[i][j][off_x][off_y]==square[disX][disY] && (i!=disX || j!= disY)) || 
+                                (square[i][j]==square[dX][dY] && (i=!dX || j!=dY)) )
                         {
                             flag==false;
                             goto found;
