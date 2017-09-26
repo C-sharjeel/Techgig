@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CodeChef")]
+[assembly: AssemblyTitle("EnglishAlphabets")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CodeChef")]
+[assembly: AssemblyProduct("EnglishAlphabets")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6ed67c59-5173-4a6d-911c-96e97a5fb981")]
+[assembly: Guid("7d9ffb8a-cd77-46b2-ae57-0ce1524ffd54")]
 
 // Version information for an assembly consists of the following four values:
 //

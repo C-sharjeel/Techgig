@@ -4,3 +4,9 @@ c:\users\v-ahshar\documents\visual studio 2013\Projects\Techgig\Techgig\bin\Debu
 c:\users\v-ahshar\documents\visual studio 2013\Projects\Techgig\Techgig\obj\Debug\OldFarmer.csprojResolveAssemblyReference.cache
 c:\users\v-ahshar\documents\visual studio 2013\Projects\Techgig\Techgig\obj\Debug\Techgig.exe
 c:\users\v-ahshar\documents\visual studio 2013\Projects\Techgig\Techgig\obj\Debug\Techgig.pdb
+D:\Data\Techgig\Techgig\bin\Debug\Techgig.exe.config
+D:\Data\Techgig\Techgig\obj\Debug\Techgig.exe
+D:\Data\Techgig\Techgig\obj\Debug\Techgig.pdb
+D:\Data\Techgig\Techgig\bin\Debug\Techgig.exe
+D:\Data\Techgig\Techgig\bin\Debug\Techgig.pdb
+D:\Data\Techgig\Techgig\obj\Debug\OldFarmer.csprojResolveAssemblyReference.cache

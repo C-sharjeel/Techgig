@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeChef
+namespace Contests
 {
-    public interface Run
+    class Program
     {
-        void run();
+        static void Main(string[] args)
+        {
+        }
     }
 }
